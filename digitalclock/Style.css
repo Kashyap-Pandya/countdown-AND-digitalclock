@@ -1,0 +1,28 @@
+body {
+    background: #FFF8F3;
+    text-align: center;
+}
+
+h1 {
+    color: #6ad4c6;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 200px;
+    font-size: 4em;
+}
+.clock  {
+    font-size: 4em;
+    margin:150px auto;
+    color: #1C6DD0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    padding: 20px;
+    background: #f5bae1;
+}
+
+.today {
+    margin-top:90px;
+    font-size: 3em;
+    color: #1C6DD0;
+}
