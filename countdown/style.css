@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/jessy-smith-zFOm6KzA-7g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    overflow: hidden;
+    text-align: center;
+    object-fit: cover;
+}
+
+.heading {
+    font-size: 4rem;
+    color: tomato;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 4rem;
+}
+
+.text {
+    /* padding: 2rem; */
+    padding: 1.5rem 3.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+
+
+    .time {
+        margin-top:3rem;
+    }
+    .text {
+        padding: 0.5rem 2rem;
+    }
+    .heading {
+        font-size: 3rem;
+        color: tomato;
+        margin-top: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .heading {
+        font-size: 1.5rem;
+        color: tomato;
+        margin-top: 7rem;
+    }
+
+    body {
+        background-image: url(./assets/jessy-smith-zFOm6KzA-7g-unsplash.jpg);
+        /* background-position: */
+        background-size:950px;
+    }
+
+    .time {
+        margin: 1.4rem 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+       
+    }
+    
+    .text {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+     
+    }
+}
+    
